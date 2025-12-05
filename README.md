@@ -52,14 +52,19 @@ SQL Queries usde for analytics
 -- Top 5 Most Rented Movies
 
 SELECT m.movie_title, COUNT(*) AS times_rented
+
 FROM rentals AS r
+
 JOIN movies AS m ON r.movie_id = m.movie_id
+
 GROUP BY m.movie_title
+
 ORDER BY times_rented DESC
+
 LIMIT 5;
 
--- Rentals Per Customer
 
+-- Rentals Per Customer
 
 SELECT CONCAT(c.first_name, ' ', c.last_name) AS customer_name,
 
@@ -126,6 +131,7 @@ Key Findings:
 Popularity of the movies : Certain movies consistently outperform others, showing solid customer preferences.
 Some customers has more rentals than other customers.this shows that Customers have different engagement levels.
 Genre Performance: crime/drama genre show higher rental count compared to others.
+
 
 
 
