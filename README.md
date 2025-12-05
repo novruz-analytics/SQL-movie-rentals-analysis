@@ -17,10 +17,10 @@ rentals
 
 ![ER Diagram](movie_rentals_ER.png)
 
- ER Diagram
+ER Diagram
 
-Dataset (fake data created by me)
-All movie titles - chosen randomly ass well as fake customer information
+Dataset (synthetic data created by me)
+All movie titles and customer information are synthetic data created randomly 
 
 Key SQL Skills I Demonstrated
 JOIN Operations (INNER, LEFT) to combine related tables
@@ -130,6 +130,7 @@ Key Findings:
 Popularity of the movies: Certain movies consistently outperform others, showing solid customer preferences.
 Some customers has more rentals than other customers.this shows that Customers have different engagement levels.
 Genre Performance: crime/drama genre show higher rental count compared to others.
+
 
 
 
