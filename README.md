@@ -1,4 +1,5 @@
-Movie Rental Analysis | beginner-friendly SQL Portfolio Project
+Movie Rental Analysis - SQL Project.
+
 Project Summary
 This project analyzes movie rental data to show customer behaviors, identify popular movies,
 and provide data-driven business recommendations. Using real-world SQL techniques,
@@ -130,6 +131,7 @@ Key Findings:
 Popularity of the movies: Certain movies consistently outperform others, showing solid customer preferences.
 Some customers has more rentals than other customers.this shows that Customers have different engagement levels.
 Genre Performance: crime/drama genre show higher rental count compared to others.
+
 
 
 
