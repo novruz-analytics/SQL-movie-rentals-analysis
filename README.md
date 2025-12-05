@@ -18,7 +18,7 @@ rental_id (PRIMARY KEY), customer_id (FOREIGN KEY), movie_id (FOREIGN KEY), rent
 
 
  ER Diagram
-(ER Diagram)
+![ER Diagram](movie_rentals_ER.png)
 
 Dataset (fake data created by me)
 All movie titles - chosen randomly ass well as fake customer information
@@ -94,3 +94,4 @@ Key Findings:
 Popularity : Certain movies consistently outperform others, showing solid customer preferences.
 Some customers has more rentals than other customers.this shows that Customers have different engagement levels.
 Genre Performance: crime/drama genre show higher rental count compared to others.
+
