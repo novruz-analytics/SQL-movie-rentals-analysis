@@ -26,13 +26,21 @@ ER Diagram
 
 All movie titles and customer information are sample data created randomly 
 
-Key SQL Skills I Demonstrated
-JOIN Operations (INNER, LEFT) to combine related tables
-GROUP BY with aggregate functions (COUNT(), MIN())
-Filtering using WHERE and HAVING clauses
-Date Functions (CURDATE(), INTERVAL)
-Result Sorting & Limiting (ORDER BY, LIMIT)
-String Manipulation (CONCAT() for customer names)
+## SQL Skills Demonstrated
+
+JOIN operations (INNER JOIN, LEFT JOIN)
+
+Aggregations: COUNT(), MIN()
+
+GROUP BY analysis
+
+Filtering with WHERE and HAVING
+
+Date functions (CURDATE(), INTERVAL)
+
+Sorting (ORDER BY) and limiting (LIMIT)
+
+String manipulation using CONCAT()
 
 Case Study: The Business Problems that
 a movie rental platforms needed to optimize operations by understanding:
@@ -122,6 +130,7 @@ ORDER BY first_rented_date ASC;
  Popularity of the movies:  Certain movies consistently outperform others, showing solid customer preferences.
 Some customers has more rentals than other customers.  This shows that Customers have different engagement levels.  
 Genre Performance:  crime/drama genre show higher rental count compared to others.
+
 
 
 
