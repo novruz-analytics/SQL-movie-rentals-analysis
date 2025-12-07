@@ -1,11 +1,11 @@
-Movie Rental Analysis - SQL Project.
+## Movie Rental Analysis - SQL Project.
 
 Movie Rental Analysis is a beginner friendly sql project and
 this project analyzes movie rental data to show customer behaviors, identify popular movies,
 and provide data-driven business recommendations. Using real-world SQL techniques,
 I answered key main questions about rental frequency, customer engagement, and genre performance.
 
-Database Structure
+## Database Structure
 
 The analysis uses three tables:
 ```
@@ -22,7 +22,7 @@ rentals
 
 ER Diagram
 
-Dataset
+## Dataset
 
 All movie titles and customer information are sample data created randomly 
 
@@ -48,7 +48,7 @@ Which customers have never rented anything?
 What are the total rentals per genre?
 When was each movie first rented?
 
-SQL Queries usde for analytics
+## SQL Queries usde for analytics
 ```
 -- Top 5 Most Rented Movies
 SELECT m.movie_title,
@@ -118,12 +118,11 @@ GROUP BY m.movie_title
 ORDER BY first_rented_date ASC;
 ```
 
-Insights
-
-Key Findings:
+## Key Findings
  Popularity of the movies:  Certain movies consistently outperform others, showing solid customer preferences.
 Some customers has more rentals than other customers.  This shows that Customers have different engagement levels.  
 Genre Performance:  crime/drama genre show higher rental count compared to others.
+
 
 
 
